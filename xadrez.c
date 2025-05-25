@@ -27,7 +27,7 @@ void mover_bispo_recursivo(int casas_restantes) {
         return; // Caso base: não há mais casas para mover
     }
     
-    // Loops aninhados: externo para vertical, interno para horizontal
+    // Loops aninhados: externo para vertical, interno para horizontal.
     for (int vertical = 0; vertical < 1; vertical++) {
         for (int horizontal = 0; horizontal < 1; horizontal++) {
             printf("Cima, Direita\n");
