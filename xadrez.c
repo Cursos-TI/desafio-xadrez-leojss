@@ -34,7 +34,7 @@ void mover_bispo_recursivo(int casas_restantes) {
         }
     }
     
-    mover_bispo_recursivo(casas_restantes - 1); // Chamada recursiva
+    mover_bispo_recursivo(casas_restantes - 1); // Chamada recursiva.
 }
 
 int main() {
